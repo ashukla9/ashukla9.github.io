@@ -1,0 +1,59 @@
+body {
+	background-color: #F5F5F5;
+}
+
+h1 {
+	color: #090510;
+	font-family: 'Cormorant', serif;
+	font-size: 60px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+h2 {
+	font-family: 'Fira Sans Condensed', sans-serif;
+	font-size: 45 px;
+	color: #090510;
+}
+
+p, ul {
+	color: #090510;
+	padding: 20px;
+	margin: 10px;
+	font-size: 20 px;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.card {
+	width: 22%;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.2), 0 0 8px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	float: left;
+	margin: 15px 0;
+	height: 330px;
+}
+
+.container {
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.popup {
+	display: none;
+	position: fixed;
+	border: 3px solid;
+	z-index: 9;
+}
+
+.form-container {
+	max-width: 300px;
+	padding: 10px;
+}
+
+.didyouknow {
+	width: 50%;
+	padding: 5px;
+}
+}

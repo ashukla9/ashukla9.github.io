@@ -1,0 +1,26 @@
+ul.nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #7F6A93;
+}
+
+ul.nav li {
+	float: right;
+}
+
+ul.nav a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: #7F6A93;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+ul.nav a:hover {
+	background-color: #c7bcd1;
+	color: #7F6A93;
+}
